@@ -1,9 +1,0 @@
-# ninja log v5
-2	53	7792204310188315	xrtc/CMakeFiles/xrtc.dir/xrtc.cpp.obj	87be9da201c19c4c
-54	277	7792204310188315	xrtc/xrtc.dll	d7d0540b3ad42684
-2	257	7792204310188315	Windows/bin/xrtc.dll	e72e7eb28072f4a7
-2	257	7792204310188315	Windows/lib/xrtc.lib	e72e7eb28072f4a7
-3	259	7792204310188315	Windows/bin/xrtc.dll	e72e7eb28072f4a7
-3	259	7792204310188315	Windows/lib/xrtc.lib	e72e7eb28072f4a7
-10	644	7792213605748415	examples/windows/CMakeFiles/windemo.dir/main.cpp.obj	73b2a29ee389171c
-644	877	7792213607920389	Windows/bin/windemo.exe	39c9bbad70219677

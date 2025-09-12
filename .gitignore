@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.vc.db*
+*.opendb
+*.suo
+*.user
+*.sln
+
+# Build outputs
+out/
+*.obj
+*.exe
+*.dll
+*.ilk
+*.pdb
+*.log
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
