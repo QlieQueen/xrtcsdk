@@ -4,6 +4,8 @@
 #include "ui_wnd.h"
 #include "main.h"
 
+#include "xrtc/xrtc.h"
+
 const std::wstring BasicForm::kClassName = L"Basic";
 
 BasicForm::BasicForm(MainThread* ui_thread) :
@@ -32,6 +34,8 @@ std::wstring BasicForm::GetWindowClassName() const
 
 void BasicForm::InitWindow()
 {
+	xrtc::XRTCEngine::Init();
+		
 	btn_device_start_ = dynamic_cast<ui::Button*>(FindControl(L"btn_device_start"));
 	btn_prev_ = dynamic_cast<ui::Button*>(FindControl(L"btn_prev"));
 	btn_push_ = dynamic_cast<ui::Button*>(FindControl(L"btn_push"));
